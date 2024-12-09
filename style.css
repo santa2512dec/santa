@@ -107,26 +107,6 @@ body {
     height: 20px;
 }
 
-.audio-container {
-    position: relative;
-    z-index: 3;
-    margin-top: 20px;
-}
-
-.audio-controls {
-    display: flex;
-    justify-content: center;
-}
-
-#playPauseBtn {
-    background-color: rgba(255, 255, 255, 0.2);
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
 
 #playPauseBtn:hover {
     background-color: rgba(255, 255, 255, 0.4);
