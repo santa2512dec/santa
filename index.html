@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festive Clipboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="emoji-container" id="emojiContainer"></div>
+    
+    <div class="clipboard-container">
+        <div class="clipboard-content">
+            <span class="prefix">CA:</span>
+            <span id="copyText">9ZaqsikPoEJuBNt2kcvQEHXziNdvjcB12k29LGWupump</span>
+            <button id="copyButton" aria-label="Copy to clipboard">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="audio-container">
+        <audio id="christmasAudio">
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="audio-controls">
+            <button id="playPauseBtn">🎵 Play Music</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<body>
+    <div class="social-links">
+        <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon">
+            <img src="./assets/logos/x-logo.png" alt="X (Twitter)" width="30" height="30">
+        </a>
+        <a href="https://t.me/yourprofile" target="_blank" class="social-icon">
+            <img src="./assets/logos/telegram-logo.png" alt="Telegram" width="30" height="30">
+        </a>
+        <a href="https://discord.gg/yourinvite" target="_blank" class="social-icon">
+            <img src="./assets/logos/dex-screener-logo.png" alt="Discord" width="30" height="30">
+        </a>
+        <a href="https://github.com/yourprofile" target="_blank" class="social-icon">
+            <img src="./assets/logos/Pump-Fun-Logo.png" alt="GitHub" width="30" height="30">
+        </a>
+    </div>
+</html>
